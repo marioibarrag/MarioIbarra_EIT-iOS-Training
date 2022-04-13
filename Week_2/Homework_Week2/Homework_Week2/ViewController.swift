@@ -103,7 +103,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 extension ViewController: DetailVCDelegate {
     func didToggleSwitch(status: Bool) {
         statusArr[lastIndex] = status
-        print(statusArr)
         UserDefaults.standard.set(statusArr, forKey: "statusArr")
         photos.photos[lastIndex].status = status
         DispatchQueue.main.async { [weak self] in
