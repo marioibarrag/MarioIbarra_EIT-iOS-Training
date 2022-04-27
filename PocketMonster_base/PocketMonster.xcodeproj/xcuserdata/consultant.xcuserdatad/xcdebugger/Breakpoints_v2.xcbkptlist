@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F97F297C-F756-49C7-956D-A4295AAC8816"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B44CB335-E744-4840-8CE0-79E014841DA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketMonster/ViewModel/PokemonListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadPokemons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B44CB335-E744-4840-8CE0-79E014841DA5 - d9547a341054abdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketMonster.PokemonListViewModel.loadPokemons() async throws -&gt; ()"
+                  moduleName = "PocketMonster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/consultant/Documents/EIT%20Course/PocketMonster_base/PocketMonster/ViewModel/PokemonListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  uuid = "B44CB335-E744-4840-8CE0-79E014841DA5 - 85d5b2c83d81ab6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PocketMonster.PokemonListViewModel.loadPokemons() async throws -&gt; ()"
+                  moduleName = "PocketMonster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/consultant/Documents/EIT%20Course/PocketMonster_base/PocketMonster/ViewModel/PokemonListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "839138E5-497F-4C8C-BA4B-C192BECCDB82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketMonsterTests/MockNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "loadFileData(filename:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "839138E5-497F-4C8C-BA4B-C192BECCDB82 - b299ca21a5d8d042"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketMonsterTests.MockNetworkManager.loadFileData(filename: Swift.String) -&gt; Foundation.Data"
+                  moduleName = "PocketMonsterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/consultant/Documents/EIT%20Course/PocketMonster_base/PocketMonsterTests/MockNetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "243">
+               </Location>
+               <Location
+                  uuid = "839138E5-497F-4C8C-BA4B-C192BECCDB82 - b299ca21a5d8d042"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketMonsterTests.MockNetworkManager.loadFileData(filename: Swift.String) -&gt; Foundation.Data"
+                  moduleName = "PocketMonsterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/consultant/Documents/EIT%20Course/PocketMonster_base/PocketMonsterTests/MockNetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "254">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
