@@ -40,5 +40,3 @@ final class NetworkManager: NetworkManagerProtocol {
         return url
     }
 }
-
-

@@ -7,21 +7,20 @@ final class MockNetworkManager: NetworkManagerProtocol {
     func getResponseType<ResponseType>(_ type: ResponseType.Type) async throws -> ResponseType where ResponseType : Decodable {
         let data: Data
         if type == PokemonResponse.self {
-            data = loadFileData(filename: "pokemon_response")
+            data = loadFileData(filename: "pokemon_response", fileExtension: "json")
             
         } else {
-            data = loadFileData(filename: "pokemon_detail")
+            data = loadFileData(filename: "pokemon_detail", fileExtension: "json")
         }
         
         let result = try JSONDecoder().decode(ResponseType.self, from: data)
         return result
     }
     
-    func loadFileData(filename: String ) -> Data  {
+    func loadFileData(filename: String, fileExtension: String) -> Data  {
         
         let bundle = Bundle(for: MockNetworkManager.self)
-        print(bundle)
-        guard let url = bundle.url(forResource: filename, withExtension: "json")
+        guard let url = bundle.url(forResource: filename, withExtension: fileExtension)
         else { return Data() }
         
         do {
@@ -32,7 +31,7 @@ final class MockNetworkManager: NetworkManagerProtocol {
     }
     
     func getData() async throws -> Data {
-        return Data()
+        return loadFileData(filename: "1", fileExtension: "png")
     }
     
     func createURL() throws -> URL {

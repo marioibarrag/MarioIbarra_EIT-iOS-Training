@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct PokemonData: Identifiable {
+struct PokemonData: Identifiable, Equatable {
+    static func == (lhs: PokemonData, rhs: PokemonData) -> Bool {
+        lhs.id == rhs.id
+    }
+    
     let id: Int
     let name: String
     let imgURL: String

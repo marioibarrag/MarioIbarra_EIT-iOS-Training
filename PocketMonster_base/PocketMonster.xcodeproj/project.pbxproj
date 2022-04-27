@@ -13,6 +13,7 @@
 		02F6068A281856A900F17D4D /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F60689281856A900F17D4D /* MockNetworkManager.swift */; };
 		02F60692281858E400F17D4D /* PocketMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F60691281858E400F17D4D /* PocketMonsterUITests.swift */; };
 		02F60694281858E400F17D4D /* PocketMonsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F60693281858E400F17D4D /* PocketMonsterUITestsLaunchTests.swift */; };
+		02F6069B281972F900F17D4D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F6069A281972F900F17D4D /* 1.png */; };
 		4759274A28117F500042F03F /* ImagesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759274928117F500042F03F /* ImagesLoader.swift */; };
 		475927592811B0F70042F03F /* PokemonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475927582811B0F70042F03F /* PokemonDetailsView.swift */; };
 		4759275B2811B29C0042F03F /* PokemonAbility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4759275A2811B29C0042F03F /* PokemonAbility.swift */; };
@@ -56,6 +57,7 @@
 		02F6068F281858E300F17D4D /* PocketMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F60691281858E400F17D4D /* PocketMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMonsterUITests.swift; sourceTree = "<group>"; };
 		02F60693281858E400F17D4D /* PocketMonsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMonsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02F6069A281972F900F17D4D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../Downloads/1.png; sourceTree = "<group>"; };
 		4759274928117F500042F03F /* ImagesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesLoader.swift; sourceTree = "<group>"; };
 		475927582811B0F70042F03F /* PokemonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsView.swift; sourceTree = "<group>"; };
 		4759275A2811B29C0042F03F /* PokemonAbility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAbility.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		02F6067A281824A700F17D4D /* PocketMonsterTests */ = {
 			isa = PBXGroup;
 			children = (
+				02F6069A281972F900F17D4D /* 1.png */,
 				02F60683281824F700F17D4D /* ViewModelTest.swift */,
 				02F60689281856A900F17D4D /* MockNetworkManager.swift */,
 				02F6068528183AE200F17D4D /* pokemon_response.json */,
@@ -305,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F6069B281972F900F17D4D /* 1.png in Resources */,
 				02F6068828183E7300F17D4D /* pokemon_detail.json in Resources */,
 				02F6068628183AE200F17D4D /* pokemon_response.json in Resources */,
 			);

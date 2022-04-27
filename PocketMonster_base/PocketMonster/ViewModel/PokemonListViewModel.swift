@@ -12,7 +12,7 @@ class PokemonListViewModel: ObservableObject {
     @Published private(set) var pokemons: [PokemonData] = []
     
 //    private var networkManager = NetworkManager()
-    private var networkManager: NetworkManagerProtocol
+    /*private */var networkManager: NetworkManagerProtocol
     
     init(networkManager: NetworkManagerProtocol = NetworkManager()) {
         self.networkManager = networkManager
@@ -42,7 +42,7 @@ class PokemonListViewModel: ObservableObject {
         pokemons = temp
     }
     
-    private func downloadAllImages(from urls: [String: String]) async throws -> [String: Data] {
+    /*private */func downloadAllImages(from urls: [String: String]) async throws -> [String: Data] {
         var result: [String: Data] = [:]
         let imagesLoader = ImagesLoader(urls: urls, networkManager: networkManager)
         for try await response in imagesLoader {
